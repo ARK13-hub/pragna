@@ -1068,7 +1068,7 @@ CRITICAL INSTRUCTIONS:
                       max_tokens: 1500,
                       stream: true,
                     }),
-                    signal: AbortSignal.timeout(25000),
+                    signal: AbortSignal.timeout(60000),
                   });
                 let res: Response | null = null;
                 try {
